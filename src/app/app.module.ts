@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { routing } from './app.routing';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -21,9 +22,22 @@ import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { NavComponent } from './nav/nav.component';
+import { EmployeeComponent } from './employee/employee.component';
+import { HomeComponent } from './home/home.component';
+import { DepartmentsComponent } from './departments/departments.component';
+import { BackgroundComponent } from './background/background.component';
 
 @NgModule({
-  declarations: [AppComponent, EmpAddEditComponent],
+  declarations: [
+    AppComponent,
+    EmpAddEditComponent,
+    NavComponent,
+    EmployeeComponent,
+    HomeComponent,
+    DepartmentsComponent,
+    BackgroundComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -44,6 +58,9 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     MatPaginatorModule,
     MatSortModule,
     MatSnackBarModule,
+    BrowserModule,
+    routing,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

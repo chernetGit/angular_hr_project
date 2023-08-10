@@ -18,7 +18,8 @@
   },
   "employees": [
     {
-      "firstName": "Brinns",
+      "id": 1,
+      "firstName": "Brinn",
       "lastName": "Jephcote",
       "email": "bjephcote0@archive.org",
       "dob": "1981-10-05T12:09:39Z",
@@ -26,8 +27,7 @@
       "education": "Graduate",
       "company": "Gabspot",
       "experience": 36,
-      "package": 37,
-      "id": 1
+      "package": 37
     },
     {
       "id": 2,
