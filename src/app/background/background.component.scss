@@ -1,0 +1,25 @@
+img {
+  position: relative;
+}
+.info {
+  background: transparent;
+  position: absolute;
+  top: 150px;
+  left: 5px;
+  width: 30%;
+}
+h2 {
+  color: white;
+}
+button {
+  background: transparent;
+  color: white;
+  background-color: blueviolet;
+  width: 50%;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}

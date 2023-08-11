@@ -13,7 +13,11 @@ export const routing = RouterModule.forRoot([
     path: 'home',
     component: HomeComponent,
     children: [
-      { path: 'background', component: BackgroundComponent },
+      {
+        path: '',
+        component: BackgroundComponent,
+        outlet: 'studentMain',
+      },
       {
         path: 'departments',
         component: DepartmentsComponent,
